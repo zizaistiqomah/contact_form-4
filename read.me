@@ -1,0 +1,36 @@
+# Contact Form PHP 
+
+Ini adalah program sederhara untuk membuat contact form dengan menggunakan PHP. 
+Program ini dibuat untuk memasukan data nama, nim, kelas, gender, email, dan saran, yang mana data yang dimasukan akan tercacatat di database.
+
+# Fitur
+
+- Formulir kontak 
+- Menyimpan dalam database
+
+
+# Instalasi
+
+2. konfigurasi koneksi database pada file "contactForm.php" 
+<?php
+    $Nama = $_POST['Nama'];
+    $NIM = $_POST['NIM'];
+    $Gender = $_POST['Gender'];
+    $Kelas = $_POST['Kelas'];
+    $Email = $_POST['Email'];
+    $Saran = $_POST['Saran'];
+
+2. Jangan lupa di import database yang bernama `contactForm.sql` terlebih dahulu
+
+3. Pastikan server web Anda mengarahkan ke direktori proyek ini.
+
+## Penggunaan
+
+1. Akses aplikasi melalui browser dengan mengunjungi URL yang mengarah ke direktori proyek ini.
+2. Isi formulir kontak dengan nama, email, dan pesan Anda.
+3. Klik tombol "Kirim" untuk mengirimkan formulir. Jika berhasil, pesan akan disimpan dalam database dan Anda akan menerima pesan konfirmasi.
+
+## Struktur Proyek
+
+Berikut adalah struktur direktori dari proyek ini:
+
