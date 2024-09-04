@@ -52,7 +52,7 @@
   </div>
   <center>
   <div class="toast-body">
-    Universitas Brawijaya - Pemrograman Web Framework
+    Universitas Brawijaya Pemrograman Web Framework
   </div>
   </center>
 </div>
