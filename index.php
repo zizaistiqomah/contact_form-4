@@ -44,9 +44,6 @@
               <input type="submit" class="btn btn-primary" />
             </form>
           </div>
-          <div class="panel-footer text-right">
-            <small>&copy; Azizah Istiqomah - pemrograman web framework</small>
-          </div>
         </div>
       </div>
     </div>
